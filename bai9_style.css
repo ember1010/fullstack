@@ -28,6 +28,9 @@
 	top: 50px;
 	border:2px solid black;
 	border-radius: 0px 0px 4px 4px;
+	transform: rotate(518400deg);
+  	transform-origin: 50% 152px;
+  	transition: transform 86400s linear;
 }	
 #second-pointer div{
 	display: inline-block;
@@ -46,7 +49,7 @@
 	border-top-width: 0px; 
 	border-bottom-color: black;
 	border-bottom-width: 20px;
-
+	
 
 }
 #minute-pointer{
@@ -57,9 +60,12 @@
 	position: absolute ;
 	left: 191px;
 	top: 50px;
-	border:1px solid white;
+	border:1px solid black;
 	border-radius: 4px 4px 4px 4px;
 	z-index: -1;
+	transform: rotate(8640deg);
+  	transform-origin: 50% 152px;
+  	transition: transform 86400s linear;
 }	
 #minute-pointer div{
 	display: inline-block;
@@ -78,7 +84,7 @@
 	border-top-width: 0px; 
 	border-bottom-color: black;
 	border-bottom-width: 20px;
-
+	transform: rotate();
 
 }
 #hour-pointer{
@@ -92,6 +98,9 @@
 	border:1px solid red;
 	border-radius: 10px 10px 4px 4px;
 	z-index: -2;
+	transform: rotate(360deg);
+  	transform-origin: 50% 134px;
+  	transition: transform 86400s linear;
 }	
 #hour-pointer div{
 	display: inline-block;
