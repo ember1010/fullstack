@@ -98,7 +98,7 @@
 	border:1px solid red;
 	border-radius: 10px 10px 4px 4px;
 	z-index: -2;
-	transform: rotate(360deg);
+	transform: rotate(720deg);
   	transform-origin: 50% 134px;
   	transition: transform 86400s linear;
 }	
