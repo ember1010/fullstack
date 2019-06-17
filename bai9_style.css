@@ -1,0 +1,115 @@
+*{
+	margin:0;
+	padding: 0;
+	border:none;
+	box-sizing: border-box;
+		
+}
+.clearfix:after{
+		content:' ';
+		display:block;
+		clear:both;
+}
+
+#background-contain{
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	background-image: url(63f2287eedbfadbeddd41ca3105947a2.gif);
+	background-size:cover;
+}
+#second-pointer{
+	display: inline-block;
+	width: 4px;
+	height: 210px;
+	background-color: blue;
+	position: absolute ;
+	left: 195px;
+	top: 50px;
+	border:2px solid black;
+	border-radius: 0px 0px 4px 4px;
+}	
+#second-pointer div{
+	display: inline-block;
+	width: 8px;
+	height: 20px;
+	position: absolute;
+	left: -4px;
+	top: -12px;
+	border-style: solid;
+	background-color: transparent;
+	border-right-color: transparent;
+	border-right-width: 4px; 
+	border-left-color: transparent;
+	border-left-width: 4px; 
+	border-top-color: transparent;
+	border-top-width: 0px; 
+	border-bottom-color: black;
+	border-bottom-width: 20px;
+
+
+}
+#minute-pointer{
+	display: inline-block;
+	width: 12px;
+	height: 200px;
+	background-color: lightblue;
+	position: absolute ;
+	left: 191px;
+	top: 50px;
+	border:1px solid white;
+	border-radius: 4px 4px 4px 4px;
+	z-index: -1;
+}	
+#minute-pointer div{
+	display: inline-block;
+	width: 8px;
+	height: 20px;
+	position: absolute;
+	left: -4px;
+	top: -12px;
+	border-style: solid;
+	background-color: transparent;
+	border-right-color: transparent;
+	border-right-width: 4px; 
+	border-left-color: transparent;
+	border-left-width: 4px; 
+	border-top-color: transparent;
+	border-top-width: 0px; 
+	border-bottom-color: black;
+	border-bottom-width: 20px;
+
+
+}
+#hour-pointer{
+	display: inline-block;
+	width: 21px;
+	height: 164px;
+	background-color: yellow;
+	position: absolute ;
+	left: 187px;
+	top: 67px;
+	border:1px solid red;
+	border-radius: 10px 10px 4px 4px;
+	z-index: -2;
+}	
+#hour-pointer div{
+	display: inline-block;
+	width: 8px;
+	height: 20px;
+	position: absolute;
+	left: -4px;
+	top: -12px;
+	border-style: solid;
+	background-color: transparent;
+	border-right-color: transparent;
+	border-right-width: 4px; 
+	border-left-color: transparent;
+	border-left-width: 4px; 
+	border-top-color: transparent;
+	border-top-width: 0px; 
+	border-bottom-color: black;
+	border-bottom-width: 20px;
+
+
+}
