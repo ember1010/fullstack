@@ -98,6 +98,7 @@ body{
 	position: absolute;
 	text-align: left;
 	display: inline-block;
+	min-width: 700px;
 	width: 60%;
 	left: 20%;
 }
@@ -110,6 +111,7 @@ body{
 
 }
 #top-menu-wrapper nav>a:hover> #mini-menu2{
+
 	width: 54%;
 	left: 28%;
 	text-align: center;
