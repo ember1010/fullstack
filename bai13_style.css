@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding: 0;
+	border:none;
+	box-sizing: border-box;
+		
+}
+.clearfix:after{
+		content:' ';
+		display:block;
+		clear:both;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+body{
+	
+}
+#button-wrapper{
+	display: inline-block;
+	margin-top: 100px;
+	margin-left :100px;
+}
+label.nice-button{
+	display: inline-block;
+	position: relative;
+	width: 60px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #ebebeb;
+}
+label.nice-button input{
+	opacity: 0;
+}
+label.nice-button span{
+	position: absolute;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #909090;
+	border-radius: 50%;
+	left:0px;
+	top:-5px;
+	box-shadow: 0px 0px 2px 2px  #888888;
+	transition: left 0.2s ease-in;
+}
+label.nice-button input:checked + span{
+	left: 30px;
+	background-color: #065fd4;
+	transition: left 0.2s ease-in;
+}
+#rating-wrapper{
+	display: inline-block;
+	margin-top: 100px;
+	margin-left :100px;
+	border:1px solid rgba(0,0,0,0.1);
+	height: 32px;
+	width: 152px;
+}
+label.star-rating input{
+	opacity: 50%;
+}
+label.star-rating{
+	display: inline-block;
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background-image: url(photography-16-512.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float:right;
+	transition:background-image 0.1s ease-in;
+}
+label.star-rating:hover ~ label{
+	background-image: url(gold_star-512.png);
+}
+label.star-rating:hover {
+	background-image: url(gold_star-512.png);
+	transition:background-image 0.2s ease-in;
+}
